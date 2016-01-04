@@ -9,11 +9,18 @@
 </head>
 
 <body>
-    <div>
-        <img id="catImg" src="/images/xuxa_cat.jpg" alt="">
+    <div id="listCats">
+        <select id="selectCat" onchange="displayCat()">
+            <option value="">Select a cat</option>
+            <option value="Xuxa">Xuxa</option>
+            <option value="Chewie">Chewie</option>
+        </select>
     </div>
-    <div>
-        <p id="clickCounter">0</p>
+    <div id="image">
+        <img id="catImg" src="" alt="" onclick="incCounter()">
+    </div>
+    <div id="counter">
+        <p id="clickCounter"></p>
     </div>
 </body>
 
