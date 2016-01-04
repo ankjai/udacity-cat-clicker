@@ -5,9 +5,23 @@
     <title>Cat Clicker</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <link rel="stylesheet" href="css/main.css">
+    <script src="/javascripts/application.js" type="text/javascript" charset="utf-8" async defer></script>
 </head>
 
 <body>
+    <div id="listCats">
+        <select id="selectCat" onchange="displayCat()">
+            <option value="">Select a cat</option>
+            <option value="Xuxa">Xuxa</option>
+            <option value="Chewie">Chewie</option>
+        </select>
+    </div>
+    <div id="image">
+        <img id="catImg" src="" alt="" onclick="incCounter()">
+    </div>
+    <div id="counter">
+        <p id="clickCounter"></p>
+    </div>
 </body>
 
 </html>
