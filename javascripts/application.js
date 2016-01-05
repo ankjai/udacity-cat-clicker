@@ -10,7 +10,25 @@ var cat2 = {
     "counter": 0
 };
 
-var cats = [cat1, cat2];
+var cat3 = {
+    "name": "Conjunctivitis",
+    "imgLoc": "./images/cat-conjunctivitis-causes.jpg",
+    "counter": 0
+};
+
+var cat4 = {
+    "name": "Cutie",
+    "imgLoc": "./images/cute-little-cat.jpg",
+    "counter": 0
+};
+
+var cat5 = {
+    "name": "Jetske",
+    "imgLoc": "./images/jetske.jpg",
+    "counter": 0
+};
+
+var cats = [cat1, cat2, cat3, cat4, cat5];
 var catName;
 
 function displayCat() {
